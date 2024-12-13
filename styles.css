@@ -1,0 +1,70 @@
+* { 
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+
+header nav > * {
+    float: left;
+    width: 15%;
+    margin: 0 2%;
+    list-style: none;
+}
+
+header nav ul li {
+    width: 33%;
+    float: left;
+}
+
+nav {
+    border-bottom: solid 2px lightgrey;
+    height: 40px;
+}
+
+.khanLogo {
+    width: 10%;
+}
+
+li {
+    justify-content: center;
+}
+
+section {
+    float: left;
+    width: 50%
+}
+
+.sectionTwo {
+    width: 100%;
+    margin-top: 150px;
+    background-color: lightgrey;
+}
+
+h1 {
+    margin-top: 80px;
+    width: 300px;
+    font-size: 34px;
+}
+
+button {
+    background-color: #1965f2;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+}
+
+section > img {
+    float: right;
+}
